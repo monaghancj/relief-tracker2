@@ -20,7 +20,7 @@ const Efforts = React.createClass({
         <Link to="/efforts/new">New Relief Effort</Link>
         <ul>
           {this.state.efforts.map(effort =>
-            <li key={effort.id}>{effort.name}</li>
+            <li key={effort.id}> {effort.name} </li>
           )}
         </ul>
         <Link to="/">Home</Link>

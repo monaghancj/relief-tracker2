@@ -9,8 +9,8 @@ const Service = (Component) => React.createClass({
     })
   },
   post(model, doc, callback) {
-    xhr.post('http://localhost:4000' + model,
-      { json:true }, (err, response, body) => {
+    xhr.post('http://localhost:4000/' + model,
+      { json:doc }, (err, response, body) => {
         callback(err, body)
       })
   },

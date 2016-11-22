@@ -3,7 +3,21 @@
     {
       "id": 1,
       "name": "relief effort two"
+    },
+    {
+      "name": "Cameron",
+      "location_id": -1,
+      "id": 2
     }
   ],
-  "locations": []
+  "locations": [
+    {
+      "id": 1,
+      "name": "Charleston"
+    },
+    {
+      "id": 2,
+      "name": "Columbia"
+    }
+  ]
 }
