@@ -1,4 +1,9 @@
 {
-  "efforts": [],
+  "efforts": [
+    {
+      "id": 1,
+      "name": "relief effort two"
+    }
+  ],
   "locations": []
 }

@@ -10,8 +10,11 @@ const Home = React.createClass({
         <h3> (Welcome Home)</h3>
         <p> Menu </p>
         <ul>
-          <li>
+          <li className="no-underline">
             <Link to="/about">About</Link>
+          </li>
+          <li>
+            <Link to="/efforts">Efforts</Link>
           </li>
         </ul>
       </div>
