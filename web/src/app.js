@@ -7,10 +7,13 @@ const About = require('./pages/about')
 const App = React.createClass({
   render() {
     return (
-      <div>
-        <Home />
-        <About />
-      </div>
+      <BrowserRouter>
+        <div>
+          <Match exactly pattern="/" component={Home} />
+          <Match pattern="/about" component={About} />
+        </div>
+      </BrowserRouter>
+
     )
   }
 })
